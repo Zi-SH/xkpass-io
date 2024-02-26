@@ -188,7 +188,7 @@ fn help() -> String {
                         &format!("\twordlength=\tspecify word length, takes an integer between {} and {}\n\n\t", WORD_LENGTH_MIN, WORD_LENGTH_MAX) +
                         &format!("\twordcount\tspecify word count, takes an integer between {} and {}\n\n\t", WORD_COUNT_MIN, WORD_COUNT_MAX) +
                         &format!("\tcapitalization\tspecify capitalization, takes one of the following options: {}\n\n\t", CAPITALIZATIONS.join(" "))+
-                        "Without specified parameters, the default query will look like: https://xkpass.io/?pd=wwdd&wl=5&wc=3&cp=random";
+                        "Without specified parameters, the default query will look like: https://xkpass.io/?padding=wwdd&wordlength=5&wordcount=3&capitalization=random";
 
     return result;
 }
