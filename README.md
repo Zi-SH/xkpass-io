@@ -19,4 +19,5 @@ Word list derived from the work of Josh Kaufman
 https://github.com/first20hours/google-10000-english
 
 List can be recreated by the following command (some entries were removed by hand):
-curl https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt | awk 'length($0) > 3' | sort
+
+    $ curl https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt | awk 'length($0) > 3' | sort
